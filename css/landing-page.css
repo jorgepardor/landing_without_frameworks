@@ -1,0 +1,165 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  
+}
+
+#userEmail {
+    padding: 9px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.0);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.0);
+    width: 600px;
+}
+}
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #f39c12;
+
+}
+
+h4{
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    width:960px;
+    height: 400px;
+    padding-top: 100px;
+}
+
+
+.column {
+    text-align: center;
+    align-items: center;
+}
+
+.imgHeader {
+    width: 100%;
+    height: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+
+.i {
+    text-align: center;
+}
+
+.fullwidth {
+    width: 100%;
+
+}
+
+.fila {
+    display: flex;
+
+}
+
+.fila_contains {
+    width: 50%;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: auto;
+}
+
+.imgHalf {
+    width: 50%;
+}
+
+.profiles {
+    border-radius: 50%;
+    height: 240px;
+}
+
+.column {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.column h4 {
+    text-align:center;
+}
+
+.column p {
+    text-align:center;
+}
+
+.signUpform {
+    text-align: center;
+    height: 400px;
+}
+
+.signInbutton {
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background-color:#77d42a;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	padding:7px 30px;
+	text-decoration:none;
+
+}
+.signInbutton:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+.signInbutton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+.header {
+  background-color:  #1a0e0e;
+  height: 64px;
+}
+
+.imagenPrincipal {
+    background-image: url('/img/bg-masthead.png');
+    height: 800px;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    
+    
+}
+
+.imagenPrincipal h4 {
+    color: white;
+}

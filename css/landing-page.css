@@ -51,11 +51,23 @@ a {
 }
 
 .navbarContents {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     height: 100%;
     width: 960px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.navbar a svg {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.navbar a svg:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.3;
 }
 
 #buttonSignin {
@@ -81,6 +93,7 @@ a {
     height: 40px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 10px;
 }
 
 .mainNavigation a{
@@ -279,7 +292,13 @@ a {
     background-attachment: fixed;
     background-size: cover;   
     width: 100%;
-    margin: auto;
+}
+
+.gradientSignUp {
+    background-color: rgba(191,189,173,0.2);
+    height: 500px;}
+
+.signUpContents {
     padding-top: 150px;
 }
 

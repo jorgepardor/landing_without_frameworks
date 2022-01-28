@@ -34,22 +34,38 @@
 
 <body> 
     <div class="navbar">
-        <button type="SignIn" id="buttonSignin">Sign In</button>
+        <div class="navbarContents">
+            <a href="#top">
+                <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <image href="/img/icon_flaming.svg" height="60" width="60"/>
+                </svg>
+            </a>
+
+            <div class="mainNavigation">
+                <a href="#values">Our Values</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <button type="SignIn" id="buttonSignin">Sign In</button>
+
+        </div>
     </div>
 
-    <div class="mainContainerBG">
+    <div class="mainContainerBG" id="top">
         <div class="gradient">
-            <div class="column">
+            <div class="headerColumn">
 
                 <svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
                     <image href="/img/mainlogo.svg" height="600" width="1200"/>
                 </svg>
 
-                <h1>Join us at the house of the hottest flavours:</h1>
+                <h1>Join the flamming family and the first cup is on us:</h1>
 
                 <div class="userForm">
                     <input type="email" name="" id="userEmail" placeholder="Your email address">
-                    <button type="submit" id="buttonJoin">Become an inflammable!</button>
+                    <button type="submit" id="buttonJoin">Become a member!</button>
                 </div>
 
             </div>
@@ -80,7 +96,7 @@
         </div>
     </section>
 
-    <section class="fullWidth">
+    <section class="fullWidth" id="values">
 
         <div class="fila">
 
@@ -116,7 +132,7 @@
 
     </section>
 
-    <section class="testimonios">
+    <section class="testimonios" id="testimonials">
         
         <div class="testimoniosTitle">
 
@@ -126,27 +142,27 @@
 
         <div class="testimoniosContent">
 
-            <div class="column">
+            <div class="testimoniosColumn">
 
-                <img src="img/people1.png" alt="" class="profiles">
+                <img src="img/people1.png" alt="" class="testimoniosImagen">
                 <h2>Ljubica</h2>
-                <p>Meggings flexitarian knausgaard celiac single-origin coffee cold-pressed.</p>
+                <p>"Meggings flexitarian knausgaard celiac single-origin coffee cold-pressed."</p>
 
             </div>
 
-            <div class="column">
+            <div class="testimoniosColumn">
 
-                <img src="img/people2.png" alt="" class="profiles">
+                <img src="img/people2.png" alt="" class="testimoniosImagen">
                 <h2>Philip</h2>
-                <p>Pork belly keytar tote bag XOXO small batch twee glossier.</p>
+                <p>"Pork belly keytar tote bag XOXO small batch twee glossier."</p>
 
             </div>
 
-            <div class="column">
+            <div class="testimoniosColumn">
 
-                <img src="img/people3.png" alt="" class="profiles">
+                <img src="img/people3.png" alt="" class="testimoniosImagen">
                 <h2>Yuhan</h2>
-                <p>Sartorial forage bitters activated charcoal af shabby.</p>
+                <p>Sartorial forage bitters activated charcoal af shabby."</p>
 
             </div>
 
@@ -157,31 +173,37 @@
     <section class="signUpform">
         <h2>Are you ready to taste the best coffee of your life?</h2>
         <input type="email" name="" id="userEmail" placeholder="Your email address">
-        <button type="submit" id="buttonJoin">Become a inflammable!</button>
-
-        <div class="Copyright">
-            <p>Flaming Coffee 2022. All rights reserved.</p>
-        </div>
+        <button type="submit" id="buttonJoin">Become a member!</button>
     </section>
 
     <section class="footer">
 
         <div class="footerContent">
-            <a href="http://">About us</a>
-            <a href="http://">Contact us</a>
-            <a href="http://">Shipping & Returns</a>
-            <a href="http://">Privacy Policy</a>
-        </div>
 
-        <div class="footerSocial">
-            <i class="fa-brands fa-facebook-f fa-2x"></i>
-            <i class="fa-brands fa-instagram fa-2x"></i>
-            <i class="fa-brands fa-twitter fa-2x"></i>
-        </div>
+            <div class="footerLinks">
+                <a href="http://">About us</a>
+                <a href="http://">Contact us</a>
+                <a href="http://">Shipping & Returns</a>
+                <a href="http://">Privacy Policy</a>
+            </div>
 
+            <div class="footerSocial">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+            </div>
+            
+        </div>   
         
+        <div class="Copyright">
+
+            <p>Flaming Coffee 2022. All rights reserved.</p>
+             
+        </div>
 
     </section>
+
+
     
 </body>
 

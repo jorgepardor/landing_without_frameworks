@@ -1,25 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: whitesmoke;
-}
-
-.navbar {
-    background-color: #444541;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-}
-
-.mainContainerBG {
-    background-image: url('/img/bg-masthead.png');
-    height: 800px;
-    background-repeat: no-repeat, repeat;
-    background-size: cover;   
-    width: 100%;
-    margin: auto;
-}
-.gradient {
-    background: linear-gradient(0deg, rgba(68,69,65,0.9136029411764706) 20%, rgba(191,189,173,0.7791491596638656) 100%);
-    height: 100%;
 }
 
 h1 {
@@ -27,50 +11,6 @@ h1 {
     text-align: center;
     color: #FCDA40;
   
-}
-
-.userForm {
-    margin-top: 20px;
-}
-
-#userEmail {
-    padding: 9px;
-    font-size: 16px;
-    border-width: 1px;
-    border-color: #CCCCCC;
-    background-color: #FFFEF6;
-    color: #444541;
-    border-style: solid;
-    border-radius: 7px;
-    box-shadow: 0px 0px 5px rgba(66,66,66,.0);
-    text-shadow: 0px 0px 5px rgba(66,66,66,.0);
-    width: 600px;
-}
-
-#buttonSignin {
-    padding: 9px;
-    font-size: 16px;
-    border-width: 1px;
-    border-color: #CCCCCC;
-    background-color: #FCDA40;
-    color: #444541;
-    border-style: solid;
-    border-radius: 7px;
-    box-shadow: 0px 0px 5px rgba(66,66,66,.0);
-    text-shadow: 0px 0px 5px rgba(66,66,66,.0);
-    width: 80px;
-}
-
-#buttonJoin {
-    padding: 9px;
-    font-size: 16px;
-    border-width: 1px;
-    border-color: #3DBA27;
-    background-color: #3DBA27;
-    color: #FFFEF6;
-    border-style: solid;
-    border-radius: 7px;
-    width: 200px;
 }
 
 h2 {
@@ -95,53 +35,144 @@ p {
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
 }
 
-.container {
-    width:960px;
-    height: 400px;
-    padding-top: 100px;
-    
+
+/* Inicio del estilo de la barra de navegación superior */
+
+.navbar {
+    background-color: #444541;
+    height: 60px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 
-.testimoniosTitle {
-    width:960px;
-    text-align: center;
+.navbarContents {
+    margin: auto;
+    height: 100%;
+    width: 960px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.testimonios {
-    width:960px;
-    height: 400px;
-    margin-top: 60px;
-    margin-bottom: 100px;
-    align-content: center;
+#buttonSignin {
+    padding: 9px;
+    font-size: 16px;
+    background-color: #FCDA40;
+    color: #444541;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 6px;
+}
+
+#buttonSignin:hover {
+    background-color: #F96841;
+    transition: 0.5s;
+}
+
+.mainNavigation {
+    width: 800px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mainNavigation a{
+    height: 100%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+    color: #FCDA40;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.mainNavigation a:hover {
+    color: #F96841;
+    transition: 0.5s;
+}
+
+/* Fin del estilo de la barra de navegación superior */
+
+
+/* Inicio del estilo de la sección de título */
+
+.mainContainerBG {
+    background-image: url('/img/bg-masthead.png');
+    height: 800px;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;   
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.testimoniosContent {
-    display: flex;
-    width:960px;
-    height: 400px;
-    margin-top: 50px;
-
+.gradient {
+    background: linear-gradient(0deg, rgba(68,69,65,0.9136029411764706) 20%, rgba(191,189,173,0.7791491596638656) 100%);
+    height: 100%;
 }
 
-.column {
+.headerColumn {
     text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 100%;
 }
 
-.featuresColumn {
-    width: 300px;
-    text-align: center;}
+.userForm {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#userEmail {
+    padding: 9px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFEF6;
+    color: #444541;
+    border-style: solid;
+    border-radius: 7px;
+    width: 600px;
+    margin-right: 6px;
+}
+
+#buttonJoin {
+    padding: 9px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #F96841;
+    background-color: #F96841;
+    color: #FFFEF6;
+    border-style: solid;
+    border-radius: 7px;
+    width: 200px;
+}
+
+#buttonJoin:hover {
+    background-color: #FCDA40;
+    border-color: #FCDA40;
+    color: #444541;
+    transition: 0.5s;
+}
+
+
+
+/* Fin del estilo de la sección de título */
+
+
+
+/* Inicio del estilo de la sección de Features */
 
 .features {
     width:960px;
     height: 260px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 40px;
     align-content: center;
     margin-left: auto;
@@ -149,13 +180,24 @@ a {
     display: flex;
 }
 
-.i {
+.featuresColumn {
+    width: 320px;
     text-align: center;
 }
 
+.featuresColumn p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Fin del estilo de la sección de Features */
+
+
+
+/* Inicio del estilo de la sección de fullwidth */
+
 .fullwidth {
     width: 100%;
-    
 }
 
 .fila {
@@ -174,18 +216,60 @@ a {
     width: 50%;
 }
 
-.profiles {
+/* Fin del estilo de la sección de fullwidth */
+
+
+/* Inicio del estilo de la sección de testimonios */
+
+.testimonios {
+    width:960px;
+    height: 400px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimoniosTitle {
+    width:960px;
+    text-align: center;
+}
+
+.testimoniosContent {
+    display: flex;
+    width:960px;
+    height: 400px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.testimoniosColumn {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 320px;
+}
+
+.testimoniosContent p{
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.testimoniosImagen {
     border-radius: 50%;
     height: 240px;
 }
 
-.column h4 {
-    text-align:center;
-}
 
-.column p {
-    text-align:center;
-}
+/* Fin del estilo de la sección de testimonios */
+
+
+
+/* Inicio del estilo de la sección de signUp */
+/* Los estilos de el input están en la sección del título, porque se repite el mismo  */
+
 
 .signUpform {
     text-align: center;
@@ -199,29 +283,6 @@ a {
     padding-top: 150px;
 }
 
-        
-.header {
-  background-color:  #1a0e0e;
-  height: 64px;
-}
-
-
-
-.footer {
-    background-color: #444541;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-
-.footer a {
-    text-decoration: none;
-    color: #FCDA40;
-    margin-right: 10px;
-}
-
 .signUpform h2 {
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
@@ -229,3 +290,64 @@ a {
     margin-bottom: 30px;
 }
 
+/* Fin del estilo de la sección de signUp */
+
+
+
+/* Inicio del estilo de la sección de footer */
+
+.footer {
+    background-color: #444541;
+    height: 100px;
+}
+
+.footerContent {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footerSocial {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.footerLinks {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.footerSocial i {
+    margin-left: 20px;
+    color: #FCDA40;
+}
+
+.footerSocial i:hover {
+    color: #F96841;
+    transition: 0.5s;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FCDA40;
+    margin-right: 20px;
+}
+
+.footer a:hover {
+    color: #F96841;
+    transition: 0.5s;
+}
+
+.Copyright p {
+    color: rgb(252, 218, 64, .5);
+    text-align: center;
+    padding-top: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+/* Fin del estilo de la sección de footer */
